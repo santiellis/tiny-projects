@@ -1,4 +1,4 @@
-const { cloudinary } = require("./Utils/cloudinary.js");
+const { cloudinary } = require("./Utils/Cloudinary/cloudinary.js");
 
 export default async function handler(req, res) {
     const { resources } = await cloudinary.search

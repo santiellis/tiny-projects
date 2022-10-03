@@ -26,6 +26,17 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <div className={styles.grid}>
+          <a
+            href="http://localhost:3000/tic-tac-toe/tic-tac-toe"
+            className={styles.card}
+          >
+            <h2>Tic-Tac-Toe &rarr;</h2>
+            <p>
+             Play a game of Tic-Tac-Toe
+            </p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>

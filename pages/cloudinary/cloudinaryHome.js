@@ -10,7 +10,7 @@ export default function CloudinaryHome() {
   const [imageIds, setImageIds] = useState();
   const loadImages = async () => {
       try {
-          const res = await axios.get(`${window.location.origin}/api/cloudinaryGet`);
+          const res = await axios.get(`${window.location.origin}/api/cloudinaryGetUrl`);
           setImageIds(res.data);
       } catch (err) {
           console.error(err);
@@ -35,7 +35,7 @@ export default function CloudinaryHome() {
       <div className={styles.grid}>
       {imageIds && imageIds.map((imageId, index) => (
          <div key={index}>
-            {<img className={styles.card} src={imageId} alt="" />}
+            {<Image width={"300px"} height={"300px"} className={styles.card} src={imageId} alt="" />}
          </div>
             ))}
       </div>

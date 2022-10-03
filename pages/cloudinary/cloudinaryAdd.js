@@ -3,6 +3,7 @@ import axios from "axios";
 import Link from "next/link";
 import Head from "next/head";
 import styles from "../../styles/cloudinaryAdd.module.css";
+import Image from "next/image";
 
 export default function ImageUpload() {
   const [uploading, setUploading] = useState(false);
@@ -14,7 +15,6 @@ export default function ImageUpload() {
     try {
       console.log(e.target);
       if (e.target.files && e.target.files.length > 0) {
-        console.log("HOLAAAAAAAAAAAAAAAA");
         const fileSize = e.target.files[0].size / 1024 / 1024; // in MiB
         const file = e.target.files[0];
         if (fileSize > 1) {
@@ -76,7 +76,7 @@ export default function ImageUpload() {
             <h1 className={styles.title}>Upload an Image</h1>
             <div className={styles.container}>
               {previewSource && (
-                <img
+                <Image
                   className={styles.card2}
                   src={previewSource}
                   alt="chosen"
