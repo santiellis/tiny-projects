@@ -33,7 +33,18 @@ export default function Home() {
           >
             <h2>Tic-Tac-Toe &rarr;</h2>
             <p>
-             Play a game of Tic-Tac-Toe
+             Play a game of Tic-Tac-Toe.
+            </p>
+          </a>
+        </div>
+        <div className={styles.grid}>
+          <a
+          href='http://localhost:3000/pc-presentation/pc-presentation'
+          className={styles.card}
+          >
+            <h2>PC Presentation &rarr;</h2>
+            <p>
+              Landing page and css for a computer style page.
             </p>
           </a>
         </div>

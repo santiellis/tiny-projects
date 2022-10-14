@@ -159,6 +159,17 @@ export default function Tic_Tac_Toe() {
           <Link href="/">Back to Main</Link>
         </h2>
       </div>
+          <a className={styles.footerContainer}
+            href="https://github.com/santiellis"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+        <footer className={styles.footer}>
+            Made by Santiago Ellis
+            <span className={styles.logo}>
+            </span>
+        </footer>
+          </a>
       </div>
     </div>
   );

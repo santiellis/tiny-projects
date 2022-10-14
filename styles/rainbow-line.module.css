@@ -1,0 +1,21 @@
+.rainbowlineleft,
+.rainbowlineright {
+    background: linear-gradient(90deg, #F00000 0%, rgba(255, 122, 0, 0.869792) 16.67%, rgba(255, 230, 0, 0.733887) 31.77%, rgba(64, 236, 92, 0.492993) 48.44%, rgba(54, 135, 255, 0.333641) 65.1%, rgba(31, 27, 255, 0.199189) 79.17%, rgba(143, 0, 255, 0) 95.83%);
+}
+
+.rainbowlineleft {
+    width: 406px;
+    height: 12px;
+    transform: rotate(-180deg);
+    top: 110px;
+    left: 0px;
+    z-index: 1;
+}
+
+.rainbowlineright {
+    width: 406px;
+    height: 12px;
+    top: 280px;
+    right: -80px;
+    z-index: 1;
+}
