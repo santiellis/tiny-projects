@@ -48,19 +48,6 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.grid}>
-          <a
-          href="https://santiagoellis.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-          className={styles.card}
-          >
-            <h2>About me &rarr;</h2>
-            <p>
-              More Information about me.
-            </p>
-          </a>
-        </div>
       </main>
 
       <footer className={styles.footer}>
