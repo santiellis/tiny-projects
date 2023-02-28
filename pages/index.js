@@ -48,6 +48,17 @@ export default function Home() {
             </p>
           </a>
         </div>
+        <div className={styles.grid}>
+          <a
+          href='https://tiny-projects.vercel.app/pc-presentation/pc-presentation'
+          className={styles.card}
+          >
+            <h2>About me &rarr;</h2>
+            <p>
+              More Information about me.
+            </p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>
