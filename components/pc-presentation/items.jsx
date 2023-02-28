@@ -35,7 +35,7 @@ function Items({lang, product}) {
       { arrayItems.map((item, index) => {
         return (
           <div key={index} className="relative h-[300px] m-5">
-            <img className="w-[300px] h-[300px]" src={item.image} />
+            <Image className="w-[300px] h-[300px]" src={item.image} />
             <div className="absolute bottom-0 left-0 right-0 px-4 py-2 bg-red-600 opacity-70">
               <h3 className="text-x1 text-red font-bold">
                 {lang === "ES" ? item.textES : item.textEN}
