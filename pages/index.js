@@ -50,7 +50,7 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
           <a
-          href='https://tiny-projects.vercel.app/pc-presentation/pc-presentation'
+          href='santiagoellis.dev'
           className={styles.card}
           >
             <h2>About me &rarr;</h2>
