@@ -50,7 +50,9 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
           <a
-          href='santiagoellis.dev'
+          src='santiagoellis.dev'
+          target="_blank"
+          rel="noopener noreferrer"
           className={styles.card}
           >
             <h2>About me &rarr;</h2>
