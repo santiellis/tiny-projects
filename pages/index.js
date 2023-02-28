@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
         <div className={styles.grid}>
           <a
-            href="https://tiny-projects.vercel.app/cloudinary/cloudinaryHome"
+            href="https://santiagoellis.dev/cloudinary/cloudinaryHome"
             className={styles.card}
           >
             <h2>Cloudinary &rarr;</h2>
@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
           <a
-            href="https://tiny-projects.vercel.app/tic-tac-toe/tic-tac-toe"
+            href="https://santiagoellis.dev/tic-tac-toe/tic-tac-toe"
             className={styles.card}
           >
             <h2>Tic-Tac-Toe &rarr;</h2>
@@ -39,7 +39,7 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
           <a
-          href='https://tiny-projects.vercel.app/pc-presentation/pc-presentation'
+          href='https://santiagoellis.dev/pc-presentation/pc-presentation'
           className={styles.card}
           >
             <h2>PC Presentation &rarr;</h2>
