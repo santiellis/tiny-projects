@@ -33,7 +33,6 @@ function Items({lang, product}) {
   return (
     <div className="flex-1 flex justify-center m-5">
       { arrayItems.map((item, index) => {
-        console.log(lang)
         return (
           <div key={index} className="relative h-[300px] m-5">
             <img className="w-[300px] h-[300px]" src={item.image} />
