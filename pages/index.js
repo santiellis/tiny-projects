@@ -48,6 +48,18 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <div className={styles.grid}>
+          <a
+          href="https://piano.santiagoellis.dev"
+          className={styles.card}
+          >
+            <h2>3D Piano &rarr;</h2>
+            <p>
+              A 3d piano with sound and lights
+            </p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>

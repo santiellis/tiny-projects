@@ -5,7 +5,7 @@ import Link from "next/link";
 
 
 export default function Navbar({lang, setLang , product, resetProduct ,setProduct}) {
-
+  
  const redirectGithub = () => {
    location.href="https://github.com/santiellis"
 };
