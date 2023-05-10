@@ -60,6 +60,18 @@ export default function Home() {
             </p>
           </a>
         </div>
+
+        <div className={styles.grid}>
+          <a
+          href="https://piano.santiagoellis.dev"
+          className={styles.card}
+          >
+            <h2>T3-Proyect&rarr;</h2>
+            <p>
+              A Twitter based T3-Stack page made with the course of (Theo - t3․gg)
+            </p>
+          </a>
+        </div>
       </main>
 
       <footer className={styles.footer}>
