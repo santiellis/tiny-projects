@@ -15,6 +15,8 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to my projects
         </h1>
+       <div className='flex'>
+
         <div className={styles.grid}>
           <a
             href="https://santiagoellis.dev/cloudinary/cloudinaryHome"
@@ -26,7 +28,7 @@ export default function Home() {
             </p>
           </a>
         </div>
-        <div className={styles.grid}>
+        <div className='flex align-center justify-center flex-wrap'>
           <a
             href="https://santiagoellis.dev/tic-tac-toe/tic-tac-toe"
             className={styles.card}
@@ -37,6 +39,9 @@ export default function Home() {
             </p>
           </a>
         </div>
+       </div>
+       <div className='flex'>
+
         <div className={styles.grid}>
           <a
           href='https://santiagoellis.dev/pc-presentation/pc-presentation'
@@ -60,10 +65,11 @@ export default function Home() {
             </p>
           </a>
         </div>
+       </div>
 
         <div className={styles.grid}>
           <a
-          href="https://piano.santiagoellis.dev"
+          href="https://t3-proyect.santiagoellis.dev/"
           className={styles.card}
           >
             <h2>T3-Proyect&rarr;</h2>
