@@ -78,9 +78,11 @@ export default function ImageUpload() {
               {previewSource && (
                 <Image
                   className={styles.card2}
+                  height={300}
+                  width={300}
                   src={previewSource}
                   alt="chosen"
-                  style={{ height: "300px" }}
+                  // style={{ height: "300px" }}
                 />
               )}
               <div  className={styles.grid}>

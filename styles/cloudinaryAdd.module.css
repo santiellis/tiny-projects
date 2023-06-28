@@ -93,7 +93,7 @@
 .card2 {
     margin: 1rem;
     padding: 1.5rem;
-  display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: left;
@@ -102,7 +102,9 @@
     border: 1px solid #eaeaea;
     border-radius: 10px;
     transition: color 0.15s ease, border-color 0.15s ease;
-    max-width: 300px;
+    width: 100px;
+    height: 100px;
+
   }
 
 .card:hover,
