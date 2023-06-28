@@ -40,16 +40,21 @@ export default function CloudinaryHome() {
             ))}
       </div>
       <div className={styles.grid}>
+      <div className="cursor-pointer">
+        <Link href="cloudinaryAdd" className="cursor-pointer">
       <h2 className={styles.card}> 
-        <Link href="cloudinaryAdd">
           Add more images
-        </Link>
       </h2>
+        </Link>
+</div>
+        <div className="cursor-pointer">
+
+        <Link href="/" className="cursor-pointer">
       <h2 className={styles.card}>
-        <Link href="/">
           Back to Main
-        </Link>
       </h2>
+        </Link>
+        </div>
       </div>
       </div>
       </main>
