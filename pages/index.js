@@ -13,70 +13,33 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to my projects
+          Hi, my name is 
+          <a  href='https://santiagoellis.dev/SantiagoEllis/about' className="px-6 select-none hover:text-blue-100 underline underline-offset-8 decoration-2">
+          Santiago Ellis
+            </a> 
         </h1>
-       <div className='flex'>
+        <p className='text-3xl text-slate-300 pt-6 select-none'>I'm a Full-Stack Programmer from Argentina </p>
+        <div className='flex pt-3 space-x-6'>
+        <a href='https://santiagoellis.dev/SantiagoEllis/projects'>
+          <h3 className='text-lg select-none text-slate-400 underline underline-offset-4 decoration-1 hover:text-blue-300 '>/projects</h3>
+          </a>
+          <a className='hover:text-blue-200' href="https://github.com/santiellis">
 
-        <div className={styles.grid}>
-          <a
-            href="https://santiagoellis.dev/cloudinary/cloudinaryHome"
-            className={styles.card}
-          >
-            <h2>Cloudinary &rarr;</h2>
-            <p>
-             Add images, look at them from the main page.
-            </p>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+  <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+</svg>
           </a>
-        </div>
-        <div className='flex align-center justify-center flex-wrap'>
-          <a
-            href="https://santiagoellis.dev/tic-tac-toe/tic-tac-toe"
-            className={styles.card}
-          >
-            <h2>Tic-Tac-Toe &rarr;</h2>
-            <p>
-             Play a game of Tic-Tac-Toe.
-            </p>
+          <a className='hover:text-blue-200' href='https://www.linkedin.com/in/santiago-ellis-b68738251/'>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+  <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+</svg>
           </a>
-        </div>
-       </div>
-       <div className='flex'>
+        <a className='hover:text-blue-200'>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+</svg>
+        </a>
 
-        <div className={styles.grid}>
-          <a
-          href='https://santiagoellis.dev/pc-presentation/pc-presentation'
-          className={styles.card}
-          >
-            <h2>PC Presentation &rarr;</h2>
-            <p>
-              Landing page and css for a computer style page.
-            </p>
-          </a>
-        </div>
-
-        <div className={styles.grid}>
-          <a
-          href="https://piano.santiagoellis.dev"
-          className={styles.card}
-          >
-            <h2>3D Piano &rarr;</h2>
-            <p>
-              A 3d piano with sound and lights
-            </p>
-          </a>
-        </div>
-       </div>
-
-        <div className={styles.grid}>
-          <a
-          href="https://t3-proyect.santiagoellis.dev/"
-          className={styles.card}
-          >
-            <h2>T3-Proyect&rarr;</h2>
-            <p>
-              A Twitter based T3-Stack page made with the course of (Theo - t3․gg)
-            </p>
-          </a>
         </div>
       </main>
 
