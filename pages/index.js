@@ -18,7 +18,7 @@ export default function Home() {
           Santiago Ellis
             </a> 
         </h1>
-        <p className='text-3xl text-slate-300 pt-6 select-none'>I'm a Full-Stack Programmer from Argentina </p>
+        <p className='text-3xl text-slate-300 pt-6 select-none'>I&apos;m a Full-Stack Programmer from Argentina </p>
         <div className='flex pt-3 space-x-6'>
         <a href='https://santiagoellis.dev/SantiagoEllis/projects'>
           <h3 className='text-lg select-none text-slate-400 underline underline-offset-4 decoration-1 hover:text-blue-300 '>/projects</h3>
